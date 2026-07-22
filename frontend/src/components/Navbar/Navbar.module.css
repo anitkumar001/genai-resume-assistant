@@ -1,0 +1,84 @@
+.navbar{
+    width:100%;
+    position:sticky;
+    top:0;
+    background:#fff;
+    box-shadow:var(--shadow-sm);
+    z-index:100;
+}
+
+.wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:75px;
+}
+
+.logo{
+    text-decoration:none;
+    color:inherit;
+}
+
+.navLinks{
+    display:flex;
+    gap:2rem;
+    list-style:none;
+}
+
+.navLinks a{
+    position:relative;
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:color .3s;
+}
+
+.navLinks a:hover{
+    color:#2563eb;
+}
+
+.navLinks a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0;
+    height:2px;
+    background:#2563eb;
+    transition:width .3s ease;
+}
+
+.navLinks a:hover::after{
+    width:100%;
+}
+
+
+.uploadBtn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 22px;
+    background:var(--primary-color);
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.uploadBtn:hover{
+    background:var(--primary-dark);
+    transform:translateY(-2px);
+    box-shadow:0 10px 20px rgba(37,99,235,.25);
+}
+
+.primaryBtn,
+.learnBtn{
+    transition:transform .3s ease, box-shadow .3s ease;
+}
+
+.primaryBtn:hover,
+.learnBtn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(37,99,235,.25);
+}

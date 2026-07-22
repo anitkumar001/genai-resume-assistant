@@ -1,0 +1,13 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+.profile{
+    background:var(--primary-color);
+    color:white;
+    padding:12px 22px;
+    border-radius:10px;
+}

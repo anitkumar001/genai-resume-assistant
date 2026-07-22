@@ -1,0 +1,21 @@
+.footer{
+    background:#0F172A;
+    color:white;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.footer h2{
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+.footer p{
+    color:#CBD5E1;
+    line-height:1.8;
+}
+
+.copy{
+    margin-top:30px;
+    font-size:.9rem;
+}
