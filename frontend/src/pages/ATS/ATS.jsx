@@ -1,4 +1,4 @@
-import { useResume } from "../../context/ResumeContext";
+import { useResume } from "../../Context/ResumeContext";
 import { useState } from "react";
 import api from "../../services/api";
 import styles from "./ATS.module.css";

@@ -2,7 +2,7 @@ import api from "../../services/api";
 import styles from "./Chat.module.css";
 
 import { useState, useRef, useEffect } from "react";
-import { useResume } from "../../context/ResumeContext";
+import { useResume } from "../../Context/ResumeContext";
 import ReactMarkdown from "react-markdown";
 
 function Chat() {
