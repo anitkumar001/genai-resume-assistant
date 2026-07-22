@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import "./styles/global.css";
 import App from "./App";
-import { ResumeProvider } from "./context/ResumeContext";
+import { ResumeProvider } from "./Context/ResumeContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
