@@ -1,31 +1,43 @@
-# Node
+# -----------------------------
+# Node.js
+# -----------------------------
 node_modules/
 dist/
 
+# -----------------------------
 # Python
+# -----------------------------
 venv/
-__pycache__/
-*.pyc
-
-# Environment Variables
-.env
-
-# VS Code
-.vscode/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Chroma Vector DB
-backend/chroma_db/
-
-# Uploaded resumes
-backend/uploads/
-
-# Python virtual environment
 backend/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
 
-# Environment variables
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
 backend/.env
 frontend/.env
+
+# -----------------------------
+# Chroma DB
+# -----------------------------
+backend/chroma_db/
+
+# -----------------------------
+# Uploaded Files
+# -----------------------------
+backend/uploads/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Operating System
+# -----------------------------
+.DS_Store
+Thumbs.db
