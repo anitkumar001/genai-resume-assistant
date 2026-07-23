@@ -27,6 +27,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "https://genai-resume-assistant-bouw-mauve.vercel.app",
+        "https://genai-resume-assistant-two.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
